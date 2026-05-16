@@ -13,9 +13,9 @@
 - [x] **Model Implementation:** Write training and prediction pipelines for the selected models.
 
 ## Phase P4: Implementation of Experiments
-- [ ] **Experiment 1 Setup:** Define the first formal experiment (e.g., comparing 3 different classifiers using Cross-Validation).
-- [ ] **Experiment 2 Setup:** Define the second formal experiment (e.g., testing the impact of `imbalanced-learn` resampling techniques like SMOTE on model accuracy).
-- [ ] **Execution:** Run both experiments and collect raw metric data (Accuracy, Precision, Recall, F1-Score).
+- [x] **Experiment 1 Setup:** Define the first formal experiment (e.g., comparing 3 different classifiers using Cross-Validation).
+- [x] **Experiment 2 Setup:** Define the second formal experiment (e.g., testing the impact of `imbalanced-learn` resampling techniques like SMOTE on model accuracy).
+- [x] **Execution:** Run both experiments and collect raw metric data (Accuracy, Precision, Recall, F1-Score).
 
 ## Phase P5: Analysis & Visualization of Results
 - [ ] **Statistical Analysis:** Perform statistical tests (using `scipy`) to determine if the differences between model performances are statistically significant.
