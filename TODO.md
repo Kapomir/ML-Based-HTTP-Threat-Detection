@@ -7,10 +7,10 @@
 - [x] **Problem Definition:** Formally define the binary classification problem in the context of the dataset.
 
 ## Phase P2 & P3: Implementation of Recognition Methods
-- [ ] **Data Preprocessing:** Clean HTTP requests (URL decoding, handling special characters, normalization).
-- [ ] **Feature Extraction:** Transform raw HTTP text into numerical vectors (e.g., TF-IDF, Bag of Words, or custom length/character frequency features).
-- [ ] **Model Selection:** Choose baseline classifiers from `scikit-learn` (e.g., Naive Bayes, k-NN, Random Forest).
-- [ ] **Model Implementation:** Write training and prediction pipelines for the selected models.
+- [x] **Data Preprocessing:** Clean HTTP requests (URL decoding, handling special characters, normalization).
+- [x] **Feature Extraction:** Transform raw HTTP text into numerical vectors (e.g., TF-IDF, Bag of Words, or custom length/character frequency features).
+- [x] **Model Selection:** Choose baseline classifiers from `scikit-learn` (e.g., Naive Bayes, k-NN, Random Forest).
+- [x] **Model Implementation:** Write training and prediction pipelines for the selected models.
 
 ## Phase P4: Implementation of Experiments
 - [ ] **Experiment 1 Setup:** Define the first formal experiment (e.g., comparing 3 different classifiers using Cross-Validation).

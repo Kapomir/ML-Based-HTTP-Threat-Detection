@@ -1,7 +1,11 @@
 # Ignore whole venv:
 venv/
 
+# Ignore project rules file:
 docs/lab-rules.pdf
 
 #Ignore claude coding settings:
 .claude/
+
+# Ignore python cache files:
+scripts/__pycache__/
