@@ -10,12 +10,26 @@ For each incoming request `x`, predict a label `y ∈ {0, 1}`:
 
 ## Dataset
 - 61 065 labeled HTTP requests, single CSV file (`assets/csic_database.csv`).
-- Class distribution: 36 000 Normal (≈59 %) / 25 065 Anomalous (≈41 %).
-- Mild class imbalance — Normal samples dominate but Anomalous is not rare.
 - Each row holds HTTP method, headers, content, and the full request line.
 
+### Class Distribution
+- 36 000 Normal (≈59 %) / 25 065 Anomalous (≈41 %).
+- Mild class imbalance — Normal samples dominate but Anomalous is not rare.
+
+<img src="../assets/plots/class_distribution.png" alt="Class Distribution" width="500" />
+
+### Request Length
+Anomalous requests tend to be longer (more payload data in attacks), while normal requests are typically shorter.
+
+<img src="../assets/plots/request_length_hist.png" alt="Request Length Distribution" width="500" />
+
+### Character Patterns
+Character frequencies differ between normal and anomalous traffic. Attack payloads introduce distinctive characters (e.g., SQL operators, encoding symbols).
+
+<img src="../assets/plots/common_characters.png" alt="Top Characters by Class" width="600" />
+
 ## Goal
-Learn a function `f(x) → ŷ` that maximizes detection of anomalous requests
+Learn a function that maximizes detection of anomalous requests
 while keeping false positives on normal traffic low.
 
 ## Evaluation Metrics

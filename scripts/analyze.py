@@ -1,7 +1,7 @@
 #!/bin/env python3
 
 """
-P5 – Statistical Analysis of experiment results.
+P5 - Statistical Analysis of experiment results.
 
 Uses Friedman test (non-parametric) to check if classifier F1 scores
 differ significantly across CV folds (experiment1_cv.csv).

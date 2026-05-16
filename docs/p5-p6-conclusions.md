@@ -17,9 +17,20 @@ likely due to the small number of folds (n=5), but the practical gap in F1 is co
 
 Generated plots (see `assets/plots/`):
 - `exp1_f1_bar.png` — F1 comparison across classifiers with error bars
+
+<img src="../assets/plots/exp1_f1_bar.png" alt="Class Distribution" width="600" />
+
 - `exp2_oversampling_bar.png` — baseline vs oversampled F1
+
+<img src="../assets/plots/exp2_oversampling_bar.png" alt="Class Distribution" width="600" />
+
 - `rf_confusion_matrix.png` — Random Forest confusion matrix on held-out test set
+
+<img src="../assets/plots/rf_confusion_matrix.png" alt="Class Distribution" width="600" />
+
 - `rf_roc_curve.png` — ROC curve (AUC ≈ 0.998)
+
+<img src="../assets/plots/rf_roc_curve.png" alt="Class Distribution" width="600" />
 
 ## Findings (P6)
 
