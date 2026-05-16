@@ -18,15 +18,15 @@
 - [x] **Execution:** Run both experiments and collect raw metric data (Accuracy, Precision, Recall, F1-Score).
 
 ## Phase P5: Analysis & Visualization of Results
-- [ ] **Statistical Analysis:** Perform statistical tests (using `scipy`) to determine if the differences between model performances are statistically significant.
-- [ ] **Results Visualization:** Generate Confusion Matrices, ROC curves, and performance bar charts using `matplotlib`.
+- [x] **Statistical Analysis:** Perform statistical tests (using `scipy`) to determine if the differences between model performances are statistically significant.
+- [x] **Results Visualization:** Generate Confusion Matrices, ROC curves, and performance bar charts using `matplotlib`.
 
 ## Phase P6: Formulation of Conclusions
-- [ ] **Code Review:** Ensure I fully understand all implemented code to avoid academic penalties.
-- [ ] **Document Findings:** Write a summary of which methods worked best for detecting malicious HTTP payloads and why.
-- [ ] **Identify Limitations:** Note any shortcomings of the models or the dataset.
+- **Code Review:** Ensure I fully understand all implemented code to avoid academic penalties.
+- [x] **Document Findings:** Write a summary of which methods worked best for detecting malicious HTTP payloads and why.
+- [x] **Identify Limitations:** Note any shortcomings of the models or the dataset.
 
 ## Phase P7: Presentation of Results
-- [ ] **Slide Deck Creation:** Prepare presentation slides covering: Topic/Assumptions, Experiment Plan, and Results.
-- [ ] **Time Check:** Practice the presentation to ensure it fits strictly within the 10-minute time limit.
-- [ ] **Artifact Submission:** Gather the final source code and the presentation file for submission.
+- **Slide Deck Creation:** Prepare presentation slides covering: Topic/Assumptions, Experiment Plan, and Results.
+- **Time Check:** Practice the presentation to ensure it fits strictly within the 10-minute time limit.
+- **Artifact Submission:** Gather the final source code and the presentation file for submission.

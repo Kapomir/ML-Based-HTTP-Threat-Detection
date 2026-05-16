@@ -52,7 +52,7 @@ def run_experiment(X_train, y_train, X_test, y_test):
     """Compare baseline vs oversampled training for each model."""
     # RandomOverSampler duplicates minority-class samples; works on sparse matrices
     ros = RandomOverSampler(random_state=42)
-    X_res, y_res = ros.fit_resample(X_train, y_train)
+    X_res, y_res = ros.fit_resample(X_train, y_train) #type: ignore
     print(f"After oversampling: {X_res.shape[0]} samples (was {X_train.shape[0]})")
 
     rows = []
