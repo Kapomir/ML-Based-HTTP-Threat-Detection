@@ -1,0 +1,5 @@
+# Ignore whole venv:
+venv/
+
+# Ignore lab rules:
+docs/lab-rules.pdf
