@@ -1,10 +1,10 @@
 # Project Kanban / To-Do List
 
 ## Phase P1: Dataset Visualization & Problem Definition
-- [ ] **Data Loading:** Download and import the CSIC 2010 HTTP Dataset into the workspace.
-- [ ] **Exploratory Data Analysis (EDA):** Analyze basic dataset statistics (class distribution, request lengths, common characters).
-- [ ] **Visualization:** Create plots to visualize the distribution of Class 0 (Normal) vs. Class 1 (Anomalous) data.
-- [ ] **Problem Definition:** Formally define the binary classification problem in the context of the dataset.
+- [x] **Data Loading:** Download and import the CSIC 2010 HTTP Dataset into the workspace.
+- [x] **Exploratory Data Analysis (EDA):** Analyze basic dataset statistics (class distribution, request lengths, common characters).
+- [x] **Visualization:** Create plots to visualize the distribution of Class 0 (Normal) vs. Class 1 (Anomalous) data.
+- [x] **Problem Definition:** Formally define the binary classification problem in the context of the dataset.
 
 ## Phase P2 & P3: Implementation of Recognition Methods
 - [ ] **Data Preprocessing:** Clean HTTP requests (URL decoding, handling special characters, normalization).

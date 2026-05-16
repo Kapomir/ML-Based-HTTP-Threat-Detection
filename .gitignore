@@ -1,5 +1,7 @@
 # Ignore whole venv:
 venv/
 
-# Ignore lab rules:
 docs/lab-rules.pdf
+
+#Ignore claude coding settings:
+.claude/
