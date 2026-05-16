@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 """
 Model selection and training pipeline for HTTP threat detection.
 
