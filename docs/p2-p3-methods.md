@@ -19,4 +19,4 @@ Two scripts implement data preprocessing, feature extraction, and three baseline
 - **Reusable:** `get_models()` function for experiments to import.
 
 ## How They Work Together
-`preprocess.py` and `train.py` are importable modules. P4 experiments will import `get_splits()` and `get_models()` to run formal cross-validation and comparisons.
+`preprocess.py` and `train.py` are importable modules. P4 experiments will import `preprocess.py` functions and `get_models()` from `train.py` to run formal cross-validation and comparisons.

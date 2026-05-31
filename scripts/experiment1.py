@@ -25,15 +25,12 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 # allow importing preprocess from same directory
 sys.path.insert(0, str(Path(__file__).parent))
 from preprocess import load_raw, clean, build_vectorizer
+from train import get_models
 
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "assets" / "results"
 RESULTS_DIR.mkdir(exist_ok=True)
 
-MODELS = {
-    "Naive Bayes":   MultinomialNB(alpha=0.1),
-    "k-NN (k=5)":   KNeighborsClassifier(n_neighbors=5, metric="cosine", n_jobs=-1),
-    "Random Forest": RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=42),
-}
+models = get_models()
 
 N_FOLDS = 5
 
@@ -43,7 +40,7 @@ def run_cv(texts, labels):
     skf = StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=42)
     rows = []
 
-    for model_name, clf in MODELS.items():
+    for model_name, clf in models.items():
         print(f"\n--- {model_name} ---")
         fold_metrics = []
 
